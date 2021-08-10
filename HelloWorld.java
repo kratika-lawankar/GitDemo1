@@ -1,5 +1,10 @@
 class HelloWorld{
 public static void main(String[] args){
-	System.out.println("Hello World");
+	boolean flag =true;
+	if(flag)
+		System.out.println("Hello World");
+	else
+		System.out.println("Have a nice day");
+	
 }
 }
